@@ -2,7 +2,7 @@
 
 f32 calcU(f32 x, f32 z) 
 { 
-    return atan2(Nz, Nx) * 0.1591 + 0.5; 
+    return atan2(z, x) * 0.1591 + 0.5; 
 } 
 
 // Shader entry point

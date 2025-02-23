@@ -345,6 +345,7 @@ PSL_ASTNode* psl_parse_function_call(PSL_AST* ast, PSL_Parser* parser)
         }
 
         stack_push(arguments, arg);
+        num_arguments++;
         
         if(psl_parser_current_token(parser)->type == PSL_TokenType_Comma) 
         {
